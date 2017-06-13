@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <EditText
+        android:id="@+id/et_findbook_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入书名或作者..."
+        android:layout_weight="1"/>
+        <Button
+            android:id="@+id/bt_findbook_fragment"
+          android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+            android:background="#00000000"
+         android:text="搜索"
+         android:layout_weight="3"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_find_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/weburl"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_findbook_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

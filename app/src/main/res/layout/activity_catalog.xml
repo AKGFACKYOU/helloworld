@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jack.zssq.CatalogActivity">
+<TextView
+    android:id="@+id/tv_catalog_bookname"
+    android:layout_width="match_parent"
+    android:layout_height="12dp"
+    android:textSize="10dp"
+    />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

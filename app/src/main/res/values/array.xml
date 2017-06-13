@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weburl">
+        <item>http://www.xxbiquge.com/</item>
+        <item>http://www.xs.la/</item>
+        <item>http://www.zwdu.com/</item>
+    </string-array>
+</resources>
